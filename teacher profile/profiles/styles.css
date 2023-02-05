@@ -1,0 +1,220 @@
+body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.bodystyle {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.infobox {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 5px 5px 5px black;
+  -webkit-box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px black;
+  text-align: justify;
+  margin: 5px;
+  width: 32%;
+  background-color: lightgrey;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.center {
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.code1 {
+  font-family: Verdana;
+  font-size: 10pt;
+  color: black;
+}
+
+.link {
+  font-family: Verdana;
+  font-size: 10pt;
+  color: navy;
+}
+
+table.tbl {
+  border-width: thin;
+  border-spacing: 0px;
+  border-style: outset;
+  border-color: black;
+  border-collapse: collapse;
+}
+table.tbl th {
+  border-width: thin;
+  padding: 2px;
+  border-style: solid;
+  border-color: black;
+}
+table.tbl td {
+  border-width: thin;
+  padding: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+td {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+th {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+table.topmenu {
+  background-color: navy;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  vertical-align: middle;
+  border-color: #ffffff;
+  border-width: thin;
+}
+
+table.topmenu td {
+  background-color: navy;
+  border-color: #ffffff;
+  border-width: thin;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 25px;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.small {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 9px;
+}
+
+.medium {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.big {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.xbig {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.expanded {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+}
+
+.justified {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.footer {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 9px;
+  color: #999999;
+}
+
+.box1 {
+  padding: 3px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #cccccc #666666 #666666 #cccccc;
+}
+
+.box2 {
+  font-style: italic;
+  word-spacing: 2pt;
+  padding: 3px;
+  border-width: thin;
+  border-style: solid;
+}
+
+.tab {
+  font-family: arial, verdana, san-serif;
+  font-size: 14px;
+}
+.asd {
+  text-decoration: none;
+  font-family: arial, verdana, san-serif;
+  font-size: 13px;
+  color: navy;
+}
+
+/*
+#listContainer{
+  margin-top:15px;
+}
+
+#expList ul, li {
+    list-style: none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+#expList p {
+    margin:0;
+    display:block;
+}
+#expList p:hover {
+    background-color:#121212;
+}
+#expList li {
+    line-height:140%;
+    text-indent:0px;
+    background-position: 1px 8px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+#expList .collapsed {
+    background-image: url(../img/collapsed.png);
+}
+// Expanded state for list element
+// NOTE: This class must be located UNDER the collapsed one 
+#expList .expanded {
+    background-image: url(../img/expanded.png);
+}
+#expList {
+    clear: both;
+}
+
+.listControl{
+  margin-bottom: 15px;
+}
+.listControl a {
+    border: 1px solid #555555;
+    color: #555555;
+    cursor: pointer;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin-right: 5px;
+    padding: 4px 10px;
+}
+.listControl a:hover {
+    background-color:#555555;
+    color:#222222; 
+    font-weight:normal;
+}
+*/
