@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas: 
+                        "top"
+                         "H"
+                         "N"
+                         "Q"
+                         "E"
+                         "F"
+                         "foot";
+}
+
+img{
+	max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fcfcfc;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    text-align: center;
+    color: #45aa6c;
+    font-weight: bold;
+    font-size: 6ch;
+    font-family: fantasy;
+}
+/*///////////////Top/////////////////*/
+#top{
+    grid-area: top;
+    background-color: #442f2f/*rgb(26, 24, 24)*/;  
+}
+
+.topLinks{
+    background-color: #296e83/* #008080;/* rgb(67, 149, 243)*/;
+    position: relative;
+    font-weight: bold;
+    left: 50%;
+    top: 15%;
+}
+
+.topLinks ul{
+    display: flex; 
+    flex-direction: flex-end; 
+}
+
+.topLinks ul,a{
+    list-style-type: none;
+    padding: 10px;
+    /*transform: skew(25deg);*/
+    color: rgb(167, 167, 167);
+    font-weight: bold;
+}
+
+.topLinks a{
+    text-decoration: none;  
+}
+
+input[type=text] {
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color: white;
+    background-image: url('../photos/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+ #login2
+ {
+     float:left;
+
+ }
+
+
+
+/*///////////////HEADER/////////////////*/
+#head{   
+    grid-area: H;  
+}
+
+#heading{
+    display: flex;  
+}
+
+#heading img{  
+    margin: 15px;
+}
+
+#heading h1{
+    font-size: 20em;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+
+
+/*///////////////NAVIGATION/////////////////*/
+#nav{
+    grid-area: N;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    
+}
+
+#menu {
+    background-color: #1157c9;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+#nav{
+    position: relative;
+    display: inline-block;
+  }
+  
+#contents {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+#contents a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+#contents a:hover 
+{
+    background-color: #d82828;
+    color: white;
+}
+  
+
+#nav:hover #menu {
+    background-color: #3e8e41;
+  }
+
+
+
+#moreSidenav ul{
+    display: flex;
+    background-color: black;
+    border: 1px solid white;
+    flex-wrap: wrap;
+}
+
+#moreSidenav a:hover{
+    color: #148a8c;
+}
+  
+#login{
+    display: none;
+}
+
+
+
+
+/*///////////////FACULTY/////////////////*/
+#f{
+    margin-right:auto;
+}
+
+#facultyDescription{
+    grid-area: Q;
+    font-weight:bolder;
+    background-image: url("../photos/46.jpg");
+    color: rgba(255, 255, 255, 0.893);
+    text-align:center;
+    display: flex;
+    height: 40vw;
+    font-size: 1.5vh;
+    padding: 5em;
+}
+
+#q{
+    margin:auto;
+	text-align: justify;
+	padding: 10px;
+}
+
+#exec{
+    grid-area: E;   
+}
+
+/*Faculty interface*/
+#faculty{
+    grid-area: F;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas: 
+            "fh"    
+            "f2"
+            "f3"
+            "f4"
+            "f5"
+            "f6"
+            "f7"
+            "f8"
+            "f9"
+            "f10"
+            "f11";
+}
+
+#facultyHead{
+    grid-area: fh;
+}
+
+#f2{
+    grid-area: f2;
+}
+
+#f3{
+    grid-area: f3;
+}
+
+#f4{
+    grid-area: f4;
+}
+
+#f5{
+    grid-area: f5;
+}
+
+#f6{
+    grid-area: f6;
+}
+
+#f7{
+    grid-area: f7;
+}
+
+#f8{
+    grid-area: f8;
+}
+
+#f9{
+    grid-area: f9;
+}
+
+#f10{
+    grid-area: f10;
+}
+
+#f11{
+    grid-area: f11;
+}
+.f{
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgb(134, 53, 53);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 0.1em 0.5em 0.5em 0.1em #1a2429;
+ 
+}
+
+.f:hover{
+    /*background-color: lightgreen;*/
+    background: rgb(67, 110, 124);
+    box-shadow: 0 7px 1000px rgba(0, 9, 10, 0.3);
+    transition: box-shadow 0.4s ease-in-out;
+}
+.f ul,.f{
+    color: rgb(37, 4, 4);
+    padding: 10px;
+}
+.f img{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;;
+     margin: 10px;
+}
+
+
+
+/*///////////////FOOTER/////////////////*/
+#footer{
+    grid-area: foot;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "L"
+                         "P"
+                         "A"
+                         "C";
+    border-radius: 0em;
+}
+
+#links{
+    grid-area:L ;
+}
+
+#programs{
+    grid-area: P;
+}
+
+#address{
+    grid-area: A;
+    padding-left: 2em;
+}
+#copyright{
+    grid-area: C;
+    background-color: #242c30/*rgb(67, 149, 243)*/;
+    padding-left: 45em;
+    
+}
+
+#footer{
+    background-color:#1d6565/* rgb(26, 24, 24)*/;
+    color: rgb(0, 0, 0); 
+    font-family: "montserratregular";
+}
+
+#footer ul a{
+    color: rgb(1, 1, 1);
+}
+
+#footer ul a:hover{
+    color: #a73030;
+}
+
+
+#footer h3{
+    padding-bottom: 1.5em;
+    padding-left: 3em;
+}
+
+#footer li a{
+    list-style-type: symbols('>');/*('>') refers string*/
+}
+#footer ul{
+    padding-bottom: 4em;
+    padding-left: 2em;
+}
+#footer li{
+    list-style-type: square;
+}
+
+
+
+
+
+
+
+  @media screen and (min-width: 400px)
+  {
+    #faculty{
+        grid-auto-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+                "fh fh"
+                "f2 f2"
+                "f3 f3"
+                "f4 f4"
+                "f5 f5"
+                "f6 f6"
+                "f7 f7"
+                "f8 f8"
+                "f9 f9"
+                "f10 f10"
+                "f11 f11";
+    }
+    #login
+    {
+        display: none;
+    }
+
+    
+  }
+
+
+  @media screen and (min-width: 600px)
+  {
+    #faculty{
+        grid-auto-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+                "fh fh"
+                "f2 f3"
+                "f4 f5"
+                "f6 f7"
+                "f8 f9"
+                "f10 f11";
+    }
+    #facultyDescription{
+        height: 25vw;
+        font-size: 2vmax;
+    }
+    #menu{
+        display: none;
+    }
+    #contents{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    #contents a{
+        display: relative;
+    }
+
+    #contents{
+        background-color: #148a8c;
+        flex-direction: row;
+        
+    }
+    #nav a{
+        color: rgb(5, 4, 4);
+        text-transform: uppercase;
+    }
+    #contents:hover{
+        position: absolute;
+    }
+    :hover{
+        display:disable;    
+    }
+
+    #nav:hover #contents {
+        display: none;
+      }
+      
+    /*#nav a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-weight: bold;
+    }*/
+
+    
+    #footer{
+        display: grid;
+        grid-auto-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "A L P"
+                             "C C C";
+    }
+    
+  }
+
+
+  @media screen and (min-width: 800px)
+  {
+      #top, .topLinks{
+          display: none;
+      }
+      #head{
+          display: grid;
+          grid-auto-rows: auto;
+          grid-template-columns: 1fr 1.5fr;
+          grid-template-areas: "HH SN";
+
+      }
+      #heading{
+          grid-area:HH;
+          width: 20em;
+          
+      }
+      #heading h1{
+          font-size: 1.1em;
+      }
+      .sidenav{
+          grid-area: SN;
+      }
+      #moreSidenav ul{
+          display: flex;
+          justify-content: space-evenly;
+          background-color: #020405;
+          color: white;
+      }
+      #moreSidenav a{
+          color: rgb(255, 255, 255);
+
+          
+      }
+      #nav{
+		 
+          background-color: transparent;
+          flex-direction: row-reverse;   
+      }
+      #nav a{
+        /*home faculty wala*/
+          color: rgb(255, 252, 252);
+          text-transform: uppercase;
+      }
+	
+          #contents a:hover 
+			{
+				background-color: #252525;
+                color: white;
+                cursor:pointer;
+			}
+			  
+			#nav:hover #contents {
+				display: none;
+			  }
+			  
+			#nav #contents {
+				
+				margin-left:px;
+				margin-bottom:90%;
+			  }
+			  
+			#nav:hover #menu {
+				background-color: #3e8e41;
+              }
+              #exec{
+                display: grid;
+                grid-auto-rows: auto;
+                grid-template-columns: 1fr 2fr 1fr;
+                grid-template-areas: "H H H"
+                                     ". E .";
+            }
+            #exec h2{
+                grid-area: H;
+            }
+            #hod{
+                grid-area: E;
+            }
+            
+            a:hover
+            {
+                cursor:pointer;
+            }
+            #login{
+                display: inline;
+
+            }
+      }
+   
+
+
+  
+  @media screen and (min-width: 1200px)
+  {
+    #faculty{
+      
+      
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+                "fh fh fh"
+                "f2 f3 f4"
+                "f5 f6 f7"
+                "f8 f9 f10"
+                "f11 .  .";
+    }
+    #exec{
+        display: grid;
+        grid-auto-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "H H H"
+                             ". E .";
+    }
+  }
+
+
